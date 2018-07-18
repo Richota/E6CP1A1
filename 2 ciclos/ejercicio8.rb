@@ -3,7 +3,11 @@
 
 a = ''
 10.times do |i|
-	
+	a << (i + 1).to_s
+	if i.even?
+		print i+"par"
+	else
+		print i+"impar"
+	end
 end
-
 puts a

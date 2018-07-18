@@ -11,3 +11,14 @@
 </table>
 
 =end
+
+
+    puts '<table>'
+    puts ' <tbody>'
+    puts '  <tr>'
+  for num in 1..3 do
+    puts "   <td> #{num} </td>"
+  end
+    puts '  </tr>'
+    puts ' </tbody>'
+    puts '</table>'
